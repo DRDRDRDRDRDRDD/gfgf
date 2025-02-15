@@ -32,6 +32,11 @@ header .logo img {
     margin-top: 3px;
 }
 
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 .search-form {
     display: flex;
