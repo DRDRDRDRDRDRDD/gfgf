@@ -86,7 +86,6 @@ main {
     padding: 20px;
     margin-bottom: 20px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     text-align: center;
     position: relative;
@@ -95,7 +94,7 @@ main {
 
 .item-images {
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     margin-bottom: 20px;
 }
 
@@ -460,6 +459,7 @@ footer .container {
     }
 
     .item-details {
+        display: flex;
         flex-direction: row;
         text-align: left;
         align-items: flex-start;
